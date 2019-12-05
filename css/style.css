@@ -1,0 +1,316 @@
+.no-padding{
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+header{
+	background-color: #F1F2F4;
+}
+nav ul{
+	list-style: none;
+    text-align: end;
+
+}
+nav ul li{
+	display: inline-block;
+    margin: 3px 12px;
+
+}
+
+/*header section end*/
+/*logo setion start*/
+.logo-part nav ul{
+	
+}
+
+.logo-part nav ul li{
+
+}
+
+/*logo setion end*/
+
+
+/*hero setion start*/
+.hero{
+	background: url(../img/wal-.jpg) no-repeat;
+	background-size: cover;
+}
+.hero-section{
+	color: #fff;
+    margin-top: 18%;
+    text-align: center;
+}
+.hero-section h2{
+	font-size: 42px;
+
+}
+.hero-section p{
+	font-size: 22px;
+
+}
+.btn-one{
+	border-radius: 5px;
+    border: none;
+    display: inline-block;
+    color: #FFF;
+    padding: 6px 58px;
+    background-color: #F7CD54;
+    margin-bottom: 18%;
+
+}
+/*about section*/
+
+.about{
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.about-us h2{
+	margin-top: 7%;
+
+}
+.about-us p{
+	margin-bottom: 1%;
+}
+.about-us span{
+	text-align: center;
+    border-bottom: 4px solid #424242;
+    width: 33px;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+.about-area h2{
+	font-size: 19px;
+}
+.about-area p{
+	font-size: 11px;
+    padding: 0px 80px;
+}
+/*about section*/
+
+/*portfolio section*/
+
+.portfolio{
+	background-color: #F3F3F3;
+}
+.portfolio-section{
+	text-align: center;
+}
+.portfolio-section h2{
+	font-size: 23px;
+	margin-top: 2%;
+}
+.portfolio-section span{
+	text-align: center;
+    border-bottom: 4px solid #424242;
+    width: 33px;
+    display: inline-block;
+    margin-bottom: 2%;
+
+}
+
+.child-one h1{
+	font-size: 14px;
+}
+.parent-one{
+	position: relative;
+}
+.parent-one span{
+	border-bottom: 0px solid #424242;
+    width: 84px;
+    display: inline-block;
+    margin-bottom: 2%;
+    text-align: center;
+    position: absolute;
+    top: 28%;
+    color: #fff;
+    background-color: #DE2B24;
+    right: 62%;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+.child-one{
+	font-size: 75%;
+    top: 30%;
+    position: absolute;
+    left: 29%;
+    padding: 0px 117px;
+}
+
+
+.position-two{
+	padding: 35px 0px;
+
+}
+.parent-two{
+	position: relative;
+
+}
+
+.parent-two span{
+	border-bottom: 0px solid #424242;
+    width: 84px;
+    display: inline-block;
+    margin-bottom: 2%;
+    text-align: center;
+    position: absolute;
+    top: 26%;
+    color: #fff;
+    background-color: #DE2B24;
+    right: 30%;
+    border: 2px solid #fff;
+    border-radius: 6px;
+
+}
+
+.child-two{
+	text-align: end;
+    position: absolute;
+    top: 21%;
+    right: 38%;
+    font-size: 13px;
+    padding: 27px 72px;
+}
+
+.child-two h1{
+	text-align: right;
+    padding: 6px 2px;
+    font-size: 14px;
+
+}
+/*portfolio section*/
+
+/*gallery section*/
+.gallery{
+	background-color: #DE2B24;
+	text-align: center;
+	padding: 98px 0px;
+
+}
+
+.gallery-tittle h2{
+	margin-top: 5%;
+
+}
+.gallery-tittle span{
+	text-align: center;
+    border-bottom: 4px solid #424242;
+    width: 33px;
+    display: inline-block;
+    margin-bottom: 2%;
+
+}
+.no-padding{
+	padding: 0px;
+}
+
+/*gallery section*/
+
+/*message section*/
+.message{
+	background-color: #1287BF;
+	text-align: center;
+}
+.message-one{
+
+}
+.message-tittle{
+	background-color: #fff;
+}
+.message-tittle h2{
+	margin-top: 5%;
+    font-size: 15px;
+    padding: 0px 221px;
+}
+.message-tittle form {
+    padding: 2px 297px;
+    margin: 11px 7px;
+}
+.btn-two {
+    border-radius: 3px;
+    border: none;
+    display: inline-block;
+    color: #FFF;
+    padding: 13px 45px;
+    background-color: #DE2B24;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+/*mobile divice*/
+
+@media (min-width: 0px) and (max-width: 500px) {
+	.parent-one span{
+    width: 69px;
+    height: 79px;
+    margin-bottom: 2%;
+    top: 14%;
+    right: 57%;
+
+}
+
+	.child-one h1 {
+    font-size: 10px;}
+
+    .child-one {
+    top: 13%;
+    left: 44%;
+    padding: 0px 10px;
+}
+	.parent-two span {
+    width: 84px;
+    margin-bottom: 2%;
+    top: 11%;
+    right: 27%;
+}
+
+	.child-two {
+    top: 7%;
+    right: 34%;
+    font-size: 10px;
+    padding: 27px 65px;
+}
+	.message-tittle h2 {
+		margin-top: 6%;
+		font-size: 15px;
+		padding: 0px 0px;
+
+    }
+
+	.message-tittle form {
+    margin: 11px 7px;
+}
+
+	.message-tittle form{
+		padding: 0px 0px;
+
+	}
+
+/*small device*/
+@media (min-width: 500.01px) and (max-width: 768px){
+
+
+}
+
+/*medium device*/
+
+@media (min-width: 768.01px) and (max-width: 1199px){
+
+    
+}
+
+/*large device*/
+@media (max-width: 1200.01px) {
+
+}
